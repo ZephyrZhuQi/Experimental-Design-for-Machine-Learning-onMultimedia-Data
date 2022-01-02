@@ -35,8 +35,11 @@ class capacity_estimator():
     # mec = estimate(784, [256, 128, 128, 10])
 
 
-    mec =  estimate(9216, [4096,4096,10]) # baseline
+    # mec =  estimate(9216, [4096,4096,10]) # baseline
     # mec =  estimate(2304, [1024,1024,10])
+    # mec =  estimate(576, [256,256,10])
+    mec =  estimate(256, [128,128,10])
+    # mec =  estimate(144, [64,64,10])
 
     print(mec)
 
